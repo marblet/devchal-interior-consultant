@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap&family=Montserrat:wght@600");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Crimson+Pro:wght@200&family=Montserrat:wght@300;500;600;700&display=swap");
 
 * {
@@ -60,44 +59,26 @@ body {
 
 main > h1 {
   position: absolute;
-  width: 359px;
-  height: 61px;
-  left: 77px;
-  top: 245px;
 
   font-family: Lora;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
-  line-height: 61px;
 }
 
 main > p {
   position: absolute;
-  width: 410px;
-  height: 145px;
-  left: 77px;
-  top: 346px;
 
   font-family: Montserrat;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
 }
 
 main > a {
   position: absolute;
-  width: 140px;
-  height: 22px;
-  left: 77px;
-  top: 539px;
 
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
   color: #ffffff;
   text-decoration: none;
 }
@@ -105,6 +86,11 @@ main > a {
 .profile {
   position: absolute;
   background: #181719;
+}
+
+.face {
+  position: absolute;
+  border-radius: 37px;
 }
 
 .profile > h2 {
@@ -160,6 +146,34 @@ footer {
     display: flex;
   }
 
+  main > h1 {
+    width: 359px;
+    height: 61px;
+    left: 77px;
+    top: 245px;
+
+    font-size: 48px;
+    line-height: 61px;
+  }
+  main > p {
+    width: 410px;
+    height: 145px;
+    left: 77px;
+    top: 346px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  main > a {
+    width: 140px;
+    height: 22px;
+    left: 77px;
+    top: 539px;
+    font-size: 18px;
+    line-height: 22px;
+  }
   .interior-photo > img {
     position: absolute;
     width: 737px;
@@ -174,12 +188,10 @@ footer {
     top: 722px;
   }
   .face {
-    position: absolute;
     width: 50px;
     height: 50px;
     left: 31px;
     top: 18px;
-    border-radius: 37px;
   }
 
   .profile > h2 {
@@ -209,9 +221,9 @@ footer {
   }
 
   footer {
-    width: 226px;
+    text-align: center;
+    width: 1440px;
     height: 17px;
-    left: 601px;
     top: 1017px;
 
     font-size: 14px;
@@ -220,4 +232,116 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  .wrapper {
+    width: 375px;
+    height: 776px;
+  }
+  .header-box {
+    width: 103px;
+    height: 31px;
+    left: 20px;
+    top: 27px;
+  }
+  nav {
+    position: absolute;
+    top: 258px;
+  }
+  .nav-item > li {
+    top: 32px;
+  }
+  main > h1 {
+    width: 270px;
+    height: 46px;
+    left: 12px;
+    top: 88px;
+
+    font-size: 36px;
+    line-height: 46px;
+  }
+  main > p {
+    width: 250px;
+    height: 85px;
+    left: 12px;
+    top: 159px;
+
+    font-size: 14px;
+    line-height: 17.07px;
+  }
+  main > a {
+    width: 140px;
+    height: 17px;
+    left: 12px;
+    top: 269px;
+
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .interior-photo > img {
+    position: absolute;
+    width: 351px;
+    height: 264.32px;
+    left: 12px;
+    top: 323px;
+  }
+  .profile {
+    position: absolute;
+    width: 300px;
+    height: 138px;
+    left: 52px;
+    top: 536px;
+
+    background: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .face {
+    width: 36.59px;
+    height: 36.59px;
+    left: 22.68px;
+    top: 13.17px;
+  }
+  .profile > h2 {
+    width: 210px;
+    height: 45px;
+    left: 19px;
+    top: 68px;
+
+    font-size: 18px;
+    line-height: 23px;
+  }
+  figcaption {
+    width: 133.03px;
+    height: 12.44px;
+    left: 73.17px;
+    top: 16.83px;
+
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .role {
+    width: 142.83px;
+    height: 10.98px;
+    left: 73.17px;
+    top: 35.12px;
+
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .border-line {
+    position: absolute;
+    width: 261px;
+    height: 0px;
+    left: 57px;
+    top: 724px;
+
+    border: 1px solid #a9a9a9;
+  }
+  footer {
+    text-align: center;
+    width: 375px;
+    height: 18.31px;
+    top: 733.69px;
+
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
